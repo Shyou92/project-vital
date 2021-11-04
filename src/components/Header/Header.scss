@@ -1,0 +1,30 @@
+@import '../../assets/variables.scss';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: $main-background-color;
+
+  &__logo {
+    cursor: pointer;
+  }
+
+  &__container {
+    display: flex;
+    color: $main-color-text;
+  }
+
+  &__container-userPhoto {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  &__container-text {
+    margin: 10px 0 0 5px;
+    padding: 0;
+    height: 20px;
+  }
+}
