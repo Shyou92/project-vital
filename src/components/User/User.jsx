@@ -9,7 +9,6 @@ function User() {
           <p className='user-info__name user-info__whitespace'>Александр</p>
           <p className='user-info__sirname'>Витчинов</p>
         </div>
-        <hr />
         <div className='user-info__bio'>
           <div className='user__container'>
             <p className='user-info__birthday user-info__whitespace'>

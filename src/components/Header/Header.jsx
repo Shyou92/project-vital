@@ -5,7 +5,7 @@ import Me from '../../images/me.jpg';
 function Header() {
   return (
     <section className='header'>
-      <Link exact to='/'>
+      <Link to='/'>
         <img src={Logo} alt='logo' className='header__logo' />
       </Link>
 

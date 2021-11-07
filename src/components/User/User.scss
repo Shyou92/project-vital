@@ -1,15 +1,5 @@
 @import '../../assets/variables.scss';
 
-hr {
-  width: 0;
-  border: 1px solid $main-background-color;
-  transition: width 0.3s ease-in-out;
-}
-
-hr:hover {
-  width: 100%;
-}
-
 .user {
   margin: 2% 0;
   width: 100%;
@@ -30,12 +20,17 @@ hr:hover {
     &__naming {
       display: flex;
       justify-content: center;
+      background-color: $main-post-color;
+      border-radius: $border-radius-13;
+      margin-bottom: 35px;
     }
 
     &__bio {
       display: flex;
       flex-direction: column;
       align-items: center;
+      background-color: $main-post-color;
+      border-radius: $border-radius-13;
     }
 
     &__whitespace {

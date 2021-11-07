@@ -5,7 +5,6 @@ function Main() {
   return (
     <section className='main'>
       <User />
-      <hr />
       <Posts />
     </section>
   );

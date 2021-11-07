@@ -1,6 +1,13 @@
+import { useState } from 'react';
 import Avatar from '../../images/me.jpg';
 
 function Post(props) {
+  const [liked, setLiked] = useState(false);
+
+  const likeCard = () => {
+    setLiked(!liked);
+  };
+
   return (
     <section className='post'>
       <div className='post__header'>
@@ -21,7 +28,11 @@ function Post(props) {
         <p className='post__number-of-likes'>
           {props.numbersOfLikes === 0 ? '' : props.numbersOfLikes}
         </p>
-        <button className='post__like' type='button'></button>
+        <button
+          className={`post__like ${liked ? 'post__like_isActive' : ''}`}
+          type='button'
+          onClick={likeCard}
+        ></button>
       </div>
     </section>
   );
