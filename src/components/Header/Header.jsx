@@ -1,10 +1,13 @@
+import { Link } from 'react-router-dom';
 import Logo from '../../images/Logo.png';
 import Me from '../../images/me.jpg';
 
 function Header() {
   return (
     <section className='header'>
-      <img src={Logo} alt='logo' className='header__logo' />
+      <Link exact to='/'>
+        <img src={Logo} alt='logo' className='header__logo' />
+      </Link>
 
       <div className='header__container'>
         <img

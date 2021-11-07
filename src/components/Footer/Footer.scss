@@ -1,0 +1,28 @@
+@import '../../assets/variables.scss';
+
+.footer {
+  background-color: $main-post-color;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+
+  &__bugtracker {
+    margin: 30px;
+  }
+
+  &__container {
+    margin: 30px;
+  }
+
+  &__info {
+    list-style-type: none;
+  }
+
+  &__info-item {
+    margin-bottom: 5px;
+
+    &:last-of-type(1) {
+      margin-bottom: 0;
+    }
+  }
+}
