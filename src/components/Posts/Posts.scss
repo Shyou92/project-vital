@@ -1,0 +1,12 @@
+@import '../../assets/variables.scss';
+
+.posts {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid $main-post-color;
+  border-radius: 13px;
+  box-shadow: 0 0 10px $main-post-color;
+  background-color: $main-post-color;
+}

@@ -1,0 +1,14 @@
+import Posts from '../Posts/Posts';
+import User from '../User/User';
+
+function Main() {
+  return (
+    <section className='main'>
+      <User />
+      <hr />
+      <Posts />
+    </section>
+  );
+}
+
+export default Main;
